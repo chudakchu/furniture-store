@@ -1,0 +1,50 @@
+:root {
+    --image-width: 80%;
+}
+
+.Safety {
+    width: 100%;
+    position: relative;
+    height: 600px;
+}
+
+.Safety img {
+    width: var(--image-width);
+    object-fit: contain;
+    position: absolute;
+    top: 62px;
+    left: 50%;
+    margin-left: -40%;
+    padding-top: 50px;
+}
+
+.Title {
+    position: relative;
+    font-size: 28px;
+    margin-bottom: 30px;
+    padding: 40px 0 10px 0;
+    font-family: "Mrs Eaves XL Serif", serif;
+    font-size: 28px;
+    line-height: 32px;
+    color: #2F4858;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.Title::after {
+    position: absolute;
+    content: "";
+    width: 90px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #ED7745;
+}
+
+.Background {
+    position: absolute;
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 350px;
+}

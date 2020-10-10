@@ -1,0 +1,33 @@
+.Search {
+    position: relative;
+    max-width: 500px;
+    margin-left: 13%;
+    width: 60%;
+}
+
+.HeaderSearch input {
+    width: 100%;
+    padding: 12px 24px;
+
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #575756;
+    border-radius: 50px;
+    border: 1px solid #a0a0a0;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.HeaderSearch input:hover,
+.HeaderSearch input:focus {
+    padding: 12px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #a0a0a0;
+    border-radius: 0;
+    background-position: 100% center;
+}

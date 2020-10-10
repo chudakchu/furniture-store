@@ -1,0 +1,142 @@
+.Footer {
+    font-family: inherit;
+    background: #FFFFFF;
+    height: 180px;
+    border-top: 1px solid #f2f4f4;
+    border-bottom: 1px solid #f2f4f4;
+}
+
+.Subscribe {
+    text-align: center;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SubscribeTitle {
+    letter-spacing: 4px;
+    margin: 10px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.SubsrcibeForm {
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.SubscribeBlock input {
+    width: 280px;
+    height: 20px;
+    line-height: 36px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.SubscribeBlock input {
+    border: 1px solid #cccccc;
+    padding: 7px;
+}
+
+.SubscribeBlock button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px transparent;
+    border-radius: 4px;
+    color: white;
+    background-color: #ED7745;
+    cursor: pointer;
+
+}
+
+.SubscribeBlock button:hover {
+    background-color: #db7b52;
+}
+
+.SubscribeBlock button:focus,
+.SubscribeBlock input:focus {
+    outline: none;
+}
+
+.FooterContent {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 25px;
+    text-align: left;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.Row p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.FooterTitle {
+    padding: 16px 0 8px 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: normal;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.FooterTitle::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    border-bottom: 1px solid #ED7745;
+}
+
+.InfoBody {
+    display: flex;
+}
+
+.ContentList {
+    list-style: none;
+    padding: 0;
+    margin-right: 50px;
+}
+
+.ContentList a {
+    text-decoration: none;
+}
+
+.ContentList a:link,
+.ContentList a:visited {
+    color: #000000;
+}
+
+.ContentList a:hover {
+    color: #ED7745;
+}
+
+.Contacts {
+    margin: 16px 0;
+    width: 100%;
+    height: 100px;
+}
+
+.Contacts svg {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.Contacts svg:hover {
+    fill: #ED7745;
+    transition: ease-in .1s;
+}

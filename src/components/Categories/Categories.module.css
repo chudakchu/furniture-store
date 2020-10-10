@@ -1,0 +1,61 @@
+.Categories {
+    padding: 40px 0 60px 0;
+}
+
+.Title {
+    position: relative;
+    font-size: 28px;
+    margin-bottom: 30px;
+    padding: 20px 0 10px 0;
+    font-family: "Mrs Eaves XL Serif", serif;
+    font-size: 28px;
+    line-height: 32px;
+    color: #2F4858;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.Title::after {
+    position: absolute;
+    content: "";
+    width: 90px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #ED7745;
+}
+
+.Categories svg {
+    width: 60px;
+}
+
+.CategoryItems {
+    margin: 0 100px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 1024px) {
+    .CategoryItems {
+        margin: 0 50px;
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .CategoryItems {
+        margin: 0 25px;
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .CategoryItems {
+        margin: 0 25px;
+        padding: 0 0px;
+    }
+}

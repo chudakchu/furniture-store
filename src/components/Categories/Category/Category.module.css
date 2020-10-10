@@ -1,0 +1,22 @@
+.Category {
+    margin: 0 20px;
+}
+
+.Category a {
+    text-decoration: none;
+}
+
+.Category a:link,
+.Category a:visited {
+    color: #000000;
+}
+
+.Category a:hover {
+    color: #ED7745;
+    fill: #ED7745;
+    transition: all .3s ease;
+}
+
+.Category svg {
+    width: 60px;
+}

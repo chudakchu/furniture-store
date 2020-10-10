@@ -1,0 +1,55 @@
+.Header {
+    width: 100%;
+    border-bottom: 1px solid #EEE;
+    position: relative;
+    z-index: 12;
+    display: unset;
+}
+
+.HeaderContent {
+    display: flex;
+    margin: auto;
+    padding: 20px 15px 20px 10px;
+    line-height: 1.2;
+    max-width: 990px;
+}
+
+.Navigation {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 16;
+}
+
+.HeaderCategories {
+    border-top: 1px solid #EEE;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.CategoriesNavigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 990px;
+    min-width: 768px;
+    margin: 0 auto;
+    padding: 10px;
+    line-height: 1;
+}
+
+.CategoriesNavigation a {
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 2px solid transparent;
+}
+
+.CategoriesNavigation a:hover {
+    color: #ED7745;
+    transition: ease-in .1s;
+}
+
+.CategoriesNavigation a:link,
+.CategoriesNavigation a:visited {
+    color: #000000;
+}

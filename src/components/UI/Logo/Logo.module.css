@@ -1,0 +1,15 @@
+.HeaderLogo {
+    display: flex;
+    margin: 0;
+}
+
+.HeaderLogo svg {
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.HeaderLogo svg:last-child {
+    width: 60px;
+    margin-left: 10px;
+}
